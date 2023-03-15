@@ -1,19 +1,21 @@
 var pessoa1 ={
-    nome: "lucas",
+    nome: "Lucas",
     idade: 22,
     cpf: "123.456.789-10"
 }
 var pessoa2={
-    nome: "joão",
+    nome: "João",
     idade: 22,
     cpf: "124.324.789-09"
 }
 var pessoa3 ={
-    nome: "ana",
+    nome: "Ana",
     idade: 22,
     cpf: "145.171.789-11"
 }
-console.log(pessoa1,pessoa2,pessoa3)
+console.log( `Dados da Pessoa: NOME: ${pessoa1.nome},IDADE ${pessoa1.idade},CPF ${pessoa1.cpf}`)
+console.log( `Dados da Pessoa: NOME: ${pessoa2.nome},IDADE ${pessoa2.idade},CPF ${pessoa2.cpf}`)
+console.log( `Dados da Pessoa: NOME: ${pessoa3.nome},IDADE ${pessoa3.idade},CPF ${pessoa3.cpf}`)
 
 
 
@@ -22,11 +24,4 @@ console.log(pessoa1,pessoa2,pessoa3)
 
 
 
-
-
-var nome = "lucas"
-var idade = 24
-var cpf = "125.121.151-12"
-console.log(nome,idade,cpf)
-console.log(" ola meu sou :" + nome )
 
